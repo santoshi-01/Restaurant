@@ -1,0 +1,123 @@
+a:link,a:visited{
+    color:darkgray;
+    font-size: 20px;
+    text-decoration: none;
+}
+.underline,.nav-item:hover{
+    text-decoration: 2px solid underline red;
+    /* color: black; */
+
+}
+
+a:link:hover
+{
+    color: black;
+}
+
+.head1{
+    /* font-family: monotype corsiva; */
+    font-family: 'Great Vibes',cursive;
+}
+.list{
+    list-style: none;
+}
+
+.image{
+    height: 650px;
+    width: 700px;
+}
+
+.rdiv
+{
+    width: 350px;
+    height: 450px;
+    text-align: left;
+    padding: 20px;
+}
+.wdiv
+{
+    height: 400px;
+    width: 300px;
+    border: none;
+    outline: none;
+}
+.icondiv
+{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;   
+}
+.wdiv:hover
+{
+    transform: scale(1.1,1.1);
+    transition: 2s;
+}
+.backimg
+{
+    height: 350px;
+    filter: opacity(50%); 
+}
+.menu{
+   margin-left: 20px;
+   font-size: 20px;
+   text-decoration: 2px solid gray underline;
+   background: transparent;
+}
+
+.menu:hover{
+    color: red;
+    text-decoration: 2px solid red underline ;
+
+  
+
+}
+.menu:focus{
+  
+    text-decoration: 2px solid red underline ;
+    color: red;
+}
+
+.carousel-item{
+    margin-left: 25%;
+}
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    margin-left: 20px;
+  
+   
+}
+
+.image1
+{
+    height: 450px;
+    width: 100%;
+}
+
+.chef:hover{
+    transform: scale(1.1,1.1);
+    transition: 2s;
+}
+
+.hide{
+    display: none;
+}
+
+
+.chef:hover .hide{
+    display: block;
+   
+}
+
+.contact{
+    height: 65px;
+    width: 65px;
+}
+.dropdown-menu{
+    margin-left: -150px;
+    width: max-content;
+}
+.dropdown{
+    margin-left: 50px;
+}
